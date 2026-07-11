@@ -6,7 +6,9 @@ local game3 = 109983668079237
 local game4 = 85245205758607
 local game5 = 79268393072444 
 local game6 = 142823291
-local game7 = 135529246290923
+local game7 = 135529246290923 135529246290923
+local game8 = 135529246290923
+    
 
 if currentId == game1 then 
     local success, result = pcall(function()
@@ -38,6 +40,10 @@ elseif currentId == game6 then
 elseif currentId == game7 then
     local success, result = pcall(function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/NovaHubRBLX/NovaHub/refs/heads/main/bladebattlebrainrot.lua"))()
+    end)
+elseif currentId == game8 then
+    local success, result = pcall(function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/NovaHubRBLX/NovaHub/refs/heads/main/fishbait.lua"))()
     end)
   
 else
