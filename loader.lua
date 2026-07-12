@@ -8,6 +8,7 @@ local game5 = 79268393072444
 local game6 = 142823291
 local game7 = 135529246290923
 local game8 = 99702578544768
+local game9 = 74193805629461
     
 
 if currentId == game1 then 
@@ -44,6 +45,10 @@ elseif currentId == game7 then
 elseif currentId == game8 then
     local success, result = pcall(function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/NovaHubRBLX/NovaHub/refs/heads/main/fishbait.lua"))()
+    end)
+elseif currentId == game9 then
+    local success, result = pcall(function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/NovaHubRBLX/NovaHub/refs/heads/main/+1mine.lua"))()
     end)
   
 else
