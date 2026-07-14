@@ -70,7 +70,7 @@ elseif currentId == game13 then
     local success, result = pcall(function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/NovaHubRBLX/NovaHub/refs/heads/main/+1wings.lua"))()
     end)
-elseif currentId == game14 then
+elseif currentId == game14 or currentId == 10267363348 then
     local success, result = pcall(function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/NovaHubRBLX/NovaHub/refs/heads/main/drain.lua"))()
     end)
