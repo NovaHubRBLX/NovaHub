@@ -1,4 +1,4 @@
-local currentId = game.GameId
+local currentId = game.PlaceId
 
 local game1 = 84133819568736 
 local game2 = 97598239454123
