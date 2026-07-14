@@ -12,6 +12,7 @@ local game9 = 74193805629461
 local game10 = 74511210941284
 local game11 = 140063367098641
 local game12 = 136919941417380
+local game13 = 84332574190497
     
 
 if currentId == game1 then 
@@ -64,6 +65,10 @@ elseif currentId == game11 then
 elseif currentId == game12 then
     local success, result = pcall(function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/NovaHubRBLX/NovaHub/refs/heads/main/bikeobbyforbrainrot.lua"))()
+    end)
+elseif currentId == game13 then
+    local success, result = pcall(function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/NovaHubRBLX/NovaHub/refs/heads/main/+1wings.lua"))()
     end)
   
 else
