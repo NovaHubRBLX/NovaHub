@@ -9,5 +9,7 @@ if game.GameId == GAME1 then
     end)
   
 else
-    print("Game ID did not match. Script aborted.")
+     local success, result = pcall(function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/NovaHubRBLX/NovaHub/refs/heads/main/notsupported.lua"))()
+    end)
 end
