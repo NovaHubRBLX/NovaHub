@@ -79,6 +79,4 @@ else
     local success, result = pcall(function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/NovaHubRBLX/NovaHub/refs/heads/main/uni.lua"))()
     end)
-    print("Current PlaceId: " .. tostring(currentId))
-    print("This game is not currently supported.")
 end
