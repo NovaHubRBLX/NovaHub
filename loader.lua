@@ -16,6 +16,7 @@ local game13 = 84332574190497
 local game14 = 138381251771774
 local game15 = 74442575449267
 local game16 = 136848130917777
+local game17 = 84575720768520
 
 if currentId == game1 then 
     local success, result = pcall(function()
@@ -77,6 +78,10 @@ elseif currentId == game15 then
 elseif currentId == game16 then
     local success, result = pcall(function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/NovaHubRBLX/NovaHub/refs/heads/main/comshop.lua"))()
+    end)
+elseif currentId == game17 then
+    local success, result = pcall(function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/NovaHubRBLX/NovaHub/refs/heads/main/brainrotrush.lua"))()
     end)
     
 else
