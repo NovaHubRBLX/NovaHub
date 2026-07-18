@@ -8,10 +8,12 @@ if game.GameId == GAME1 then
     local success, result = pcall(function()
         return loadstring(game:HttpGet(SCRIPT_URL1))()
     end)
+   
  elseif  game.GameId == GAME2 then
    local success, result = pcall(function()
         return loadstring(game:HttpGet(SCRIPT_URL2))()
     end)
+   
 else
      local success, result = pcall(function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/NovaHubRBLX/NovaHub/refs/heads/main/notsupported.lua"))()
