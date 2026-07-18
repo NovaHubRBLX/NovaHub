@@ -1,3 +1,4 @@
+print("test")
 local GAME1 = 10267363348
 local SCRIPT_URL1 = "https://raw.githubusercontent.com/NovaHubRBLX/NovaHub/refs/heads/main/drain.lua"
 local GAME2 = 99702578544768
