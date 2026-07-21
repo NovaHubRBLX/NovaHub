@@ -19,6 +19,7 @@ local game16 = 136848130917777
 local game17 = 84575720768520
 local game18 = 115681808123944
 local game19 = 96947338677734
+local game20 = 102990893659741
 
 if currentId == game1 then 
     local success, result = pcall(function()
@@ -90,6 +91,10 @@ elseif currentId == game18 then
         loadstring(game:HttpGet("https://raw.githubusercontent.com/NovaHubRBLX/NovaHub/refs/heads/main/throwacoin.lua"))()
     end)
 elseif currentId == game19 then
+    local success, result = pcall(function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/NovaHubRBLX/NovaHub/refs/heads/main/+1keyboardslime.lua"))()
+    end)
+elseif currentId == game20 then
     local success, result = pcall(function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/NovaHubRBLX/NovaHub/refs/heads/main/+1keyboardslime.lua"))()
     end)
