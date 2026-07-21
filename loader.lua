@@ -96,7 +96,7 @@ elseif currentId == game19 then
     end)
 elseif currentId == game20 then
     local success, result = pcall(function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/NovaHubRBLX/NovaHub/refs/heads/main/+1keyboardslime.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/NovaHubRBLX/NovaHub/refs/heads/main/brainblast.lua"))()
     end)
     
 else
