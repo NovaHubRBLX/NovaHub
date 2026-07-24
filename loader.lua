@@ -21,6 +21,7 @@ local game18 = 115681808123944
 local game19 = 96947338677734
 local game20 = 102990893659741
 local game21 = 82554996468034
+local game22 = 104339804279870
 
 if currentId == game1 then 
     local success, result = pcall(function()
@@ -102,6 +103,10 @@ elseif currentId == game20 then
 elseif currentId == game21 then
     local success, result = pcall(function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/NovaHubRBLX/NovaHub/refs/heads/main/+1pickaxe.lua"))()
+    end)
+elseif currentId == game22 then
+    local success, result = pcall(function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/NovaHubRBLX/NovaHub/refs/heads/main/tape.lua"))()
     end)
     
 else
