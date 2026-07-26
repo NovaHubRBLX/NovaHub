@@ -111,7 +111,7 @@ elseif currentId == game22 then
     end)
 elseif currentId == game23 then
     local success, result = pcall(function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/NovaHubRBLX/NovaHub/refs/heads/main/brainrotrush.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/NovaHubRBLX/NovaHub/refs/heads/main/dumplings.lua"))()
     end)
     
 else
