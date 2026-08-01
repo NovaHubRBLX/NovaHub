@@ -23,6 +23,7 @@ local game20 = 102990893659741
 local game21 = 82554996468034
 local game22 = 104339804279870
 local game23 = 95829667226336
+local game24 = 114507117535918
 
 if currentId == game1 then 
     local success, result = pcall(function()
@@ -112,6 +113,10 @@ elseif currentId == game22 then
 elseif currentId == game23 then
     local success, result = pcall(function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/NovaHubRBLX/NovaHub/refs/heads/main/dumplings.lua"))()
+    end)
+elseif currentId == game24 then
+    local success, result = pcall(function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/NovaHubRBLX/NovaHub/refs/heads/main/eggbrainrot.lua"))()
     end)
     
 else
