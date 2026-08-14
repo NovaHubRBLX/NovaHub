@@ -25,6 +25,7 @@ local game22 = 104339804279870
 local game23 = 95829667226336
 local game24 = 114507117535918
 local game25 = 107778070777162
+local game26 = 94640181989498
 
 if currentId == game1 then 
     local success, result = pcall(function()
@@ -122,6 +123,10 @@ elseif currentId == game24 then
 elseif currentId == game25 then
     local success, result = pcall(function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/NovaHubRBLX/NovaHub/refs/heads/main/stealanegg.lua"))()
+    end)
+elseif currentId == game26 then
+    local success, result = pcall(function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/NovaHubRBLX/NovaHub/refs/heads/main/chicken.lua"))()
     end)
     
 else
